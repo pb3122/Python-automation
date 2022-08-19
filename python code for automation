@@ -1,0 +1,4 @@
+import requests
+responses=requests.get("https://web.postman.co/workspace/My-Workspace~ca4c4e38-e382-4fee-8a81-464fb732e98b/request/22712993-1a770208-e3bf-41ac-8f54-0172256d35e3")
+print(responses.json())
+print(responses.json)
